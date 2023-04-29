@@ -8,5 +8,10 @@ header {
 }
 
 .header__menu-item {
+    display: block;
     list-style: none;
+}
+
+.header__menu-item:hover {
+    cursor: pointer;
 }
