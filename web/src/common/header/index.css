@@ -1,0 +1,12 @@
+header {
+    border: 1px solid black;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__menu-item {
+    list-style: none;
+}
