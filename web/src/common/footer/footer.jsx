@@ -4,7 +4,7 @@ export default function Footer(){
     return(
         <footer>
             <div className='container'>
-                <h2>Footer 00</h2>
+                <p className='footer__copyright'>© copyright 2023</p>
             </div>
         </footer>        
     );

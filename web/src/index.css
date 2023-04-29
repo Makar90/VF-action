@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .wrapper {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* background-color: aquamarine; */
+    background-color: #FFFFFF;
+    font: 'Poppins';
 }
 
 .container {

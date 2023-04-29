@@ -33,7 +33,7 @@ function Header(){
                     </ul>
                 </nav>
             </div>
-            {/* <button onClick={temp1}>1</button> */}
+            <button onClick={temp1}>1</button>
         </header>
     );
 }

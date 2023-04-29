@@ -1,7 +1,7 @@
 main {
     background-color: #0A0F15;
-    height: 100%;
     color: white;
     border-radius: 5px;
-    ;
+    /* height: 100%; */
+    flex-grow: 1;
 }
