@@ -1,16 +1,16 @@
-//import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import React, { useState} from 'react';
 
 import './index.css';
 
 
 function Header(){
-    const [Temp, setTemp] = useState('ert');
+    const [Temp, setTemp] = useState('Реєстрація замовлення');
 
     function temp1(){
         setTemp('000');
         console.log('clik');
-        alert('ddd');
+        //alert('ddd');
     }
     console.log('clik');
 
@@ -20,20 +20,20 @@ function Header(){
                 <nav className='header__nav'>
                     <ul className='header__menu'>
                         <li className='header__menu-item'>
-                            {/* <Link to='/'>Головна</Link> */}
-                            Головна 
+                            <Link className='header__menu-item-title' to='/'>Головна</Link>
+                            {/* Головна */} 
                         </li>
                         <li className='header__menu-item'>
-                            {/* <Link to='/instruction'>Як отримати знижку</Link> */}
-                            Як отримати знижку
+                            <Link  className='header__menu-item-title' to='/instruction'>Як отримати знижку</Link>
+                            {/* Як отримати знижку */}
                         </li>
                         <li className='header__menu-item'>
-                            {Temp}
+                            <Link className='header__menu-item-title' to='/registration'>{Temp}</Link>
                         </li>
                     </ul>
                 </nav>
             </div>
-            <button onClick={temp1}>1</button>
+            {/* <button onClick={temp1}>1</button> */}
         </header>
     );
 }
