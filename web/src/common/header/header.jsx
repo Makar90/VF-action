@@ -12,7 +12,7 @@ function Header(){
         console.log('clik');
         //alert('ddd');
     }
-    console.log('clik');
+    console.log('clik'); 
 
     return(
         <header>
@@ -37,7 +37,7 @@ function Header(){
                     </ul>
                 </nav>
             </div>
-           {/*  <button onClick={temp1}>1</button> */}
+           <button onClick={temp1}>1</button>
         </header>
     );
 }
