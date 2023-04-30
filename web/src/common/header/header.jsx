@@ -30,10 +30,14 @@ function Header(){
                         <li className='header__menu-item'>
                             <Link className='header__menu-item-title' to='/registration'>{Temp}</Link>
                         </li>
+                        <li className='header__menu-item'>
+                            {/* <Link className='header__menu-item-title' to='../../discount_list.xlsx'>Знижки</Link> */}
+                            <a href="../../discount_list.xlsx" download>Знижки</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
-            <button onClick={temp1}>1</button>
+           {/*  <button onClick={temp1}>1</button> */}
         </header>
     );
 }

@@ -15,6 +15,8 @@ header {
 
 .header__menu-item-title {
     text-decoration: none;
+    font-weight: 800;
+    color: black;
     /* text-transform: uppercase; */
 }
 
