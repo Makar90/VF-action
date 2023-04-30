@@ -2,8 +2,8 @@ import { useState } from "react";
 import './index.css';
 
 export default function Home(){
-    const [TimerYears, setTimerYears] = useState();
-    const [TimerMonthes, setTimerMonthes] = useState();
+    //const [TimerYears, setTimerYears] = useState();
+    //const [TimerMonthes, setTimerMonthes] = useState();
     const [TimerDays, setTimerDays] = useState();
     const [TimerHours, setTimerHours] = useState();
     const [TimerMinutes, setTimerMinutes] = useState();
@@ -25,6 +25,7 @@ export default function Home(){
             }else{
                 //alert('Timer out');
                 Timer=0;
+                console.log(Timer);
             }
         });
     }
