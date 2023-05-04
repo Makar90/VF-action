@@ -32,7 +32,7 @@ function Header(){
                         </li>
                         <li className='header__menu-item'>
                             {/* <Link className='header__menu-item-title' to='../../discount_list.xlsx'>Знижки</Link> */}
-                            <a href="../../discount_list.xlsx" download>Знижки</a>
+                            <a href="./discount_list.xlsx" download>Знижки</a>
                         </li>
                     </ul>
                 </nav>
